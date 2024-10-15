@@ -1,8 +1,7 @@
-package Equals;
-
+package data.types;
 import java.util.Scanner;
 
-public class Main {
+public class Word {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,7 +14,9 @@ public class Main {
             System.out.println("Думите са еднакви.");
         } else {
             System.out.println("Думите не са еднакви.");
-        }
 
+
+        }
     }
+
 }
